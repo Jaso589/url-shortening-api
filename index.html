@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.jpg">
+  <link rel="stylesheet" href="./style.css">
+  <title>JASO | url shortening api</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container-header">
+      <img src="./images/logo.svg" alt="logo">
+      <nav class="navbar">
+        <ul class="list-nav">
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Resources</a>
+        </ul>
+        <ul class="list-nav">
+          <button class="btn-login">Login</button>
+          <button class="btn btn-h btn-sign">Sign Up</button>
+        </ul>
+      </nav>
+      <button class="btn-menu"><img src="./images/icon-hamburger.svg" alt=""></button>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>More than just shorter links</h1>
+      <p>Build your brand's recognition and get detailed insights on how your links are performing.</p>
+      <button class="btn btn-h btn-started">Get Started</button>
+    </div>
+    <figure class="ilustration">
+      <img src="./images/illustration-working.svg" alt="ilustration">
+    </figure>
+  </section>
+  <div class="hero-bottom">
+    <section class="shorten">
+
+      <form class="search-block" id="user-form">
+        <input type="search" name="link" class="user-link " id="user-link" placeholder="Shorten a link here..." required>
+        <label class="user__link-label" for="user__link">Please add a link</label>
+        <button class="btn btn-h submit-btn">Shorten it!</button>
+      </form>
+
+      <div class="container-boxes">
+        <!-- <div class="link-box">
+          <p class="input__link">https://www.frontendmentor.io</p>
+          <p class="output__link">https://reLink/kbudcb</p>
+          <button class="btn--rect btn data-btn--1 copy-btn">Copy</button>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="sectionInfo">
+      <div class="block-text">
+        <h2>Advanced Statistics</h2>
+        <p>Track how your links are performing across the web with our 
+          advanced statistics dashboard.</p>
+      </div>
+      <div class="cards">
+        <div class="line"></div>
+        <div class="card">
+          <figure>
+            <img src="./images/icon-brand-recognition.svg" alt="brand">
+          </figure>
+          <h3>Brand Recognition</h3>
+          <p>Boost your brand recognition with each click. Generic links don’t 
+            mean a thing. Branded links help instil confidence in your content.</p>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="./images/icon-detailed-records.svg" alt="detailed">
+          </figure>
+          <h3>Detailed Records</h3>
+          <p>Gain insights into who is clicking your links. Knowing when and where 
+            people engage with your content helps inform better decisions.</p>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="./images/icon-fully-customizable.svg" alt="fully">
+          </figure>
+          <h3>Fully Customizable</h3>
+          <p>Improve brand awareness and content discoverability through customizable 
+            links, supercharging audience engagement.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  <section class="hero-footer">
+    <div>
+      <h2>Boost your links today</h2>
+      <button class="btn btn-h btn-started" id="btn-started">Get Started</button>
+    </div>
+  </section>
+  <footer>
+    <div class="footer">
+      <img class="logo-footer" src="./images/logo-footer.svg" alt="logo">
+      <div>
+        <h4>Features</h4>
+        <div class="links-footer">
+          <a>Link Shortening</a>
+          <a>Branded Links</a>
+          <a>Analytics</a>
+        </div>
+          
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <div class="links-footer">
+          <a>Blog</a>
+          <a>Developers</a>
+          <a>Analytics<a>
+        </div>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <div class="links-footer">
+          <a>About</a>
+          <a>Our Team</a>
+          <a>Careers</a>
+          <a>Contact</a>
+        </div>
+      </div>
+      <div>
+        <a href="#"><img class="icon" src="./images/icon-facebook.svg" alt=""></a>
+        <a href="#"><img class="icon"  src="./images/icon-instagram.svg" alt=""></a>
+        <a href="#"><img class="icon"  src="./images/icon-twitter.svg" alt=""></a>
+        <a href="#"><img class="icon"  src="./images/icon-pinterest.svg" alt=""></a>
+        <a href="#"><img class="icon"  src="./images/icon-instagram.svg" alt=""></a>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://juan-samaritano.vercel.app/">Juan Samaritano</a>
+    </div>
+  </footer>
+  </div>
+  <div>
+  <script src="app.js"></script>
+</body>
+</html>
